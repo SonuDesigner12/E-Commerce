@@ -1,0 +1,263 @@
+@media screen and (max-width: 1024px) {
+
+    #web-cotainer  {
+        padding: 0 45px;
+        
+    }
+    .top-bar2 .logo img {
+        margin-right: 0vmin;
+
+    }
+    .top-bar2 .search-bar {
+        margin-right: 5vmin;
+        /* width: 44vmin; */
+    }
+    .top-bar2 .social-icon .inline-content {
+        width: 12vmin;
+    }
+    .top-bar2 .social-icon p {
+        font-size: 10px;
+    }
+    /* nav bar */
+    .menu {
+        margin-left: 15vmin;
+        
+    }
+    /* footeer */
+    footer {
+        justify-content: flex-start;
+        gap: 50px;
+    }
+
+    /* login page resposive section */
+    .login-page {
+        width: 41vw;
+    }
+    
+    
+  
+}
+@media screen and (max-width: 768px) {
+    .top-bar1 .mobile-no {
+        width: 28%;
+    }
+    .top-bar1 .title {
+        width: 35%;
+    }
+    .top-bar2 .logo img {
+        margin-right: 0vmin;
+
+    }
+    .top-bar2 .search-bar {
+        width: 40vmin;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    
+    .top-bar2 .social-icon {
+        gap: 3px;
+    }
+    .top-bar2 .social-icon .inline-content {
+        width: 10vmin;
+    }
+    .top-bar2 .social-icon p {
+        font-size: 10px;
+    }
+
+    /* navbar */
+    
+    .toggle {
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav .menu {
+    width: 100vw;
+    height: 91px;
+    display: flex;
+    /* margin-top: 0; */
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: flex-start; */
+    /* padding-left: 16vmin; */
+    /* display: none; */
+    background: #059473;
+    position: absolute;
+    top: 30.4vh;
+    left: -115vw;
+    padding-left: 50px;
+    transition: 1s;
+    
+    
+    }
+    nav .toggle a {
+        display: block;
+    }
+    
+    .show-menu {
+        /* left: 100vh; */
+        margin-left: 142vh;
+        z-index: 99;
+    }
+
+    /* banner style */
+    .banner {
+        width: 100%;
+        height: 50vh;
+        /* border: 2px solid red; */
+    }
+    
+    .banner .item img {
+        height: 50vh;
+        
+    }
+    /* footer */
+    footer {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    footer .sentence {
+        width: 50vw;
+    }
+
+    /* login page resposive section */
+    .login-page {
+        width: 48vw;
+    }
+   
+  
+}
+
+@media screen and (max-width: 425px) {
+    
+    .top-bar1 p {
+        font-size: 15px;
+    }
+    #web-cotainer {
+        padding: 0 5px;
+    }
+    .top-bar1 .gmail {
+        height: 40px;
+    }
+    .top-bar1 .mobile-no {
+        width: fit-content;
+    }
+    .top-bar1 .title {
+        width: fit-content;
+        margin-left: 40vmin;
+    }
+    .top-bar2 {
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-top: 10vmin;
+
+    }
+    .top-bar2 .logo img {
+        width: 70vmin;
+    }
+    .top-bar2 .search-bar {
+        width: fit-content;
+        margin-bottom: 3vmin;
+    }
+    .search-bar #produch-search {
+        font-size: 10px;
+    }
+    .top-bar2 .social-icon .inline-content {
+        width: 20vmin;
+    }
+    .top-bar2 .social-icon p {
+        font-size: 10px;
+    }
+
+    /* nav bar */
+    header {
+        margin-top: 60px;
+    }
+    .menu {
+        margin-top: 26vw;
+    }
+    .show-menu {
+        margin-left: 69.4vh;
+        z-index: 99;
+        
+    }
+    /* banner style */
+    .banner {
+        width: 100%;
+        height: 30vh;
+        /* border: 2px solid red; */
+    }
+    
+    .banner .item img {
+        height: 30vh;
+        
+    }
+    /* card style */
+    .card-container .card {
+        height: 72vh;
+    }
+    /* footer*/
+    footer .Categories {
+        width: 50vw;
+    }
+    footer .sentence {
+        width: 100%;
+    }
+    /* login page resposive section */
+    .login-page {
+        width: 90vw;
+    }
+        
+}
+    
+
+    
+  
+
+
+@media screen and (max-width: 320px) {
+
+    .top-bar1 .title {
+        margin-left: 0;
+    }
+    .top-bar1 {
+        margin-bottom: 55px;
+    }
+    .search-bar #produch-search {
+        font-size: 8px;
+    }
+    /* nav bar */
+    .menu {
+        margin-top: 36vw;
+    }
+    .show-menu {
+        margin-left: 59.2vh;
+        z-index: 99;
+        
+    }
+    /* banner syle */
+    .banner {
+        width: 100%;
+        height: 25vh;
+        /* border: 2px solid red; */
+    }
+    
+    .banner .item img {
+        height: 25vh;
+        
+    }
+    /*card */
+    .card-container {
+        margin-bottom: 0px;
+    }
+
+    /* login page resposive section */
+    .login-page {
+        width: 95vw;
+    }
+
+
+
+}
